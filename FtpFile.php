@@ -11,7 +11,7 @@ namespace gftp;
  * @license GNU LESSER GPL 3
  * @version 1.0
  */
-class FtpFile extends \yii\base\BaseObject {
+class FtpFile extends \yii\base\Object {
 	
 	public $isDir;
 	public $rights;

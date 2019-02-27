@@ -9,7 +9,7 @@ use \ReflectionClass;
  *
  * @author herve
  */
-abstract class Enum extends \yii\base\BaseObject {
+abstract class Enum extends \yii\base\Object {
 	
 	private $name;
 	private $ordinal;
